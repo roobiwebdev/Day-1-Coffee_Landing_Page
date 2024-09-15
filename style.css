@@ -57,7 +57,7 @@ li a:hover {
 /* Header Start */
 
 .header {
-  background: url("Images/pexels-nao-triponez-129207.jpg");
+  background: url(Images/pexels-nao-triponez-129207.jpg);
   background-position: center;
   background-size: cover;
   height: 90vh;
