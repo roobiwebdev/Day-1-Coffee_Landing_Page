@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+/* utility */
+button {
+  padding: 10px 10px;
+  background: var(--main-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #110f10;
+}
+
+/* Nav-start */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.li {
+  display: inline;
+  align-items: center;
+}
+
+.li a {
+  color: #fff;
+  margin-left: 40px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+li a:hover {
+  border-bottom: 2px solid #966b2a;
+}
+/* Nav End */
+
+/* Header Start */
+
+.header {
+  background: url("Images/pexels-nao-triponez-129207.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  margin-top: 20px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.main-head {
+  position: absolute;
+  top: 6rem;
+  font-size: 5rem;
+  word-spacing: 10px;
+}
+
+.primary-head {
+  position: absolute;
+  bottom: 8rem;
+  font-size: 5rem;
+  word-spacing: 10px;
+  margin-bottom: -100px;
+}
+
+.shop-btn {
+  transform: translateY(24.6rem);
+}
+/* Header End */
+
+/* Section start */
+.our-story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  background: url("images/pexels-chitokan-2183027-removebg-preview.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.title-style {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  transform: translateX(-30px);
+}
+.title {
+  font-size: 4rem;
+  font-family: "Playfair Display SC", serif;
+  color: #fff;
+}
+
+.our-story p {
+  margin-bottom: 1rem;
+}
+.section-contents p {
+  max-width: 500px;
+  color: #fff;
+  line-height: 20px;
+}
+/* Section End */
+
+/* Section Start */
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.title-style-2 {
+  display: flex;
+  align-items: center;
+}
+
+.title-style-2 h1 {
+  font-size: 3rem;
+  font-family: "Playfair Display SC", serif;
+  color: #fff;
+}
+
+.section-contents-2 p {
+  max-width: 500px;
+  color: #fff;
+  margin: 20px 0 20px 0;
+  line-height: 20px;
+}
+
+.img-2 {
+  width: 400px;
+  height: 400px;
+  background: url("images/2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Products Section */
+menu {
+  margin-top: 15%;
+}
+
+.titles {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Playfair Display SC", serif;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding: 100px 0px 100px 100px;
+}
+
+.PRODUCTS {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 25%;
+  height: 450px;
+  border: 2px solid var(--main-color);
+}
+
+.container img {
+  position: relative;
+  left: 37%;
+  top: -55px;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 35px;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+}
+
+.content button {
+  margin-top: 30px;
+}
+ol {
+  text-align: center;
+  padding-top: 40px;
+}
+
+ol li {
+  padding: 10px;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+hr {
+  border-color: var(--main-color);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 15px;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  padding: 20px;
+  text-align: center;
+}
+
+.contents {
+  color: #fff;
+  line-height: 20px;
+}
+
+.texts {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.texts span {
+  color: var(--main-color);
+}
+
+.end {
+  border-color: var(--main-color);
+  width: 500px;
+  margin: 0 auto;
+}
+.ending {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.ending span {
+  color: var(--main-color);
+  cursor: pointer;
+}
