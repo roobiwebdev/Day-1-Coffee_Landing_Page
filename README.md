@@ -13,4 +13,4 @@ ethically sourced coffee. Share your thoughts and feelings
 ###Live Demo
 
 
-[Visit my website Live](https://roobiwebdev.github.io/Coffee_Landing_Page/)
+[Visit my website Live](https://roobiwebdev.github.io/Day-1-Coffee_Landing_Page/)
